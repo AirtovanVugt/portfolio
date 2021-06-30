@@ -1,0 +1,44 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background-color: lightgray;
+}
+
+h1, h2{
+	text-align: center;
+}
+
+h2{
+	margin-bottom: 10px;
+}
+
+p{
+	text-align: center;
+	margin-top: 20px;
+}
+
+hr{
+	margin: 20px 0px;
+}
+
+#lingo-container{
+	margin: 0 auto;
+	width: 250px;
+	text-align: center;
+	background-color: gray;
+	padding-top: 7px;
+}
+
+#lingo-container > button:nth-of-type(1){
+	width: 60px;
+	text-align: center;
+}
+
+#lingo-container > button{
+	width: 35px;
+	height: 35px;
+	margin: 7px;
+}
